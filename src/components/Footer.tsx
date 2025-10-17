@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center space-y-8 mb-12">
           {/* Logo & Brand */}
           <Link to="/" className="flex flex-col items-center space-y-4 group">
-            <img src="/fynuu-logo.png" alt="Fynuu" className="w-20 h-20 transition-transform group-hover:scale-110" />
+            <img src="https://res.cloudinary.com/dgsi3q46q/image/upload/v1760289639/icon_transparent_bg_oxibwb.png" alt="Fynuu" className="w-20 h-20 transition-transform group-hover:scale-110" />
             <span className="text-3xl font-bold gradient-text">Fynuu</span>
           </Link>
           

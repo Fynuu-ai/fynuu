@@ -24,14 +24,14 @@ const Header = () => {
   }];
   const handleJoinBeta = () => {
     // Redirect to Google Play Store for Fynuu app
-    window.open('https://play.google.com/store/apps/details?id=com.fynuu.app', '_blank');
+    window.open('https://play.google.com/store/apps/details?id=io.smart.assistant', '_blank');
   };
   return <>
       <header className="fixed top-0 w-full z-50 backdrop-blur-lg bg-background/80 border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center space-x-3">
-              <img src="/fynuu-logo.png" alt="Fynuu" className="w-10 h-10" />
+              <img src="https://res.cloudinary.com/dgsi3q46q/image/upload/v1760289639/icon_transparent_bg_oxibwb.png" alt="Fynuu" className="w-10 h-10" />
               <span className="text-xl font-bold gradient-text">Fynuu</span>
             </Link>
 
