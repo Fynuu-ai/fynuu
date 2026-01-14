@@ -116,8 +116,6 @@ const Index = () => {
       </div>
     </section>
 
-
-
     {/* Video Section */}
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
@@ -132,27 +130,25 @@ const Index = () => {
       </div>
     </section>
 
+
     {/* Upcoming Features Section */}
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-slide-up">
-          <h2 className="text-4xl sm:text-5xl font-bold gradient-text-accent mb-4">
+          <h2 className="text-4xl sm:text-4xl font-righteous gradient-text mb-4">
             Coming Soon
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Exciting new features to make your Fynuu even more helpful
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           <Card className="border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-warm hover:-translate-y-2 hover:scale-105 animate-fade-in backdrop-blur-sm bg-card/80">
             <CardHeader>
-              <div className="text-4xl mb-4 animate-bounce hover:animate-pulse">🛒</div>
+              <div className="text-4xl mb-4">🛒</div>
               <CardTitle className="text-2xl bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Auto Grocery Carting</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Your Fynuu will learn your shopping habits and automatically add items to your cart — like a friend who knows exactly what you need
+                Your Fynuu will learn your shopping habits and automatically add items to your cart.
               </p>
             </CardContent>
           </Card>
@@ -161,12 +157,12 @@ const Index = () => {
             animationDelay: '0.1s'
           }}>
             <CardHeader>
-              <div className="text-4xl mb-4 animate-pulse hover:animate-spin">🔌</div>
+              <div className="text-4xl mb-4">🔌</div>
               <CardTitle className="text-2xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Open Source API</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Bring your Fynuu into your own apps with our developer-friendly API
+                Developers can use our Open Source API to integrate Fynuu into their apps. Fynuu will share your data and take actions on your behalf.
               </p>
             </CardContent>
           </Card>
@@ -175,7 +171,7 @@ const Index = () => {
             animationDelay: '0.2s'
           }}>
             <CardHeader>
-              <div className="text-4xl mb-4 animate-bounce hover:animate-pulse">🧠</div>
+              <div className="text-4xl mb-4 ">🧠</div>
               <CardTitle className="text-2xl bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent">Personalized AI</CardTitle>
             </CardHeader>
             <CardContent>

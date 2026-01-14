@@ -14,10 +14,7 @@ const Footer = () => {
 
         {/* Engaging Tagline */}
         <div className="max-w-2xl space-y-4">
-          <p className="text-xl text-foreground font-medium">Your friendly & secure companion for everyday life. ☺️</p>
-          <p className="text-muted-foreground">
-            Chat, plan, shop, and stay healthy — all in one place with intelligent assistance.
-          </p>
+          <p className="text-xl text-foreground font-medium">Your personal & secure friend for everyday life.</p>
         </div>
 
         {/* CTA Button */}
@@ -52,9 +49,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* Tag */}
       <div className="border-t border-border pt-8 text-center">
-        <p className="text-muted-foreground text-sm">"Fynuu is here for you." ❤️</p>
+        <p className="text-muted-foreground text-sm font-sans">Fynuu is here for you! </p>
       </div>
     </div>
   </footer>;
