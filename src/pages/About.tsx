@@ -27,14 +27,6 @@ const About = () => {
     linkedin: "https://www.linkedin.com/in/navaneeth-reddy-gantla-7a0baa32a/",
     twitter: "https://x.com/navaneethgantla",
     email: "nikgames.lab@gmail.com"
-  }, {
-    name: "Errabelli Sathvik Rao",
-    role: "Marketing Strategist and Social Media Head",
-    emoji: "📈",
-    description: "Focused on growth strategies and market expansion",
-    linkedin: "https://www.linkedin.com/in/sathvik-errabelli-04a696284/",
-    twitter: "https://x.com/ESathvik_16",
-    email: "nikgames.lab@gmail.com"
   }];
   return <div className="min-h-screen gradient-bg">
     <Header />
